@@ -75,8 +75,20 @@ li a:hover {
 
 .content_div .content {
   font-size: 150%;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 
+.content_div .content a {
+  color: black;
+  text-decoration: underline;
+  transition: color  .3s ease-in;
+}
+
+.content_div .content a:hover {
+  color: blue;
+  transition: color  .3s ease-out;
+}
 
 /* bottom */
 
