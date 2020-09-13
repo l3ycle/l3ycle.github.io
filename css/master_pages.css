@@ -198,6 +198,31 @@ li a:hover {
   background-image: url(../src/webprogrammierung_bp.png);
 }
 
+.content_div .pages .bg5 {
+  font-size: 450%;
+  font-weight: 900;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-position: center;
+  background-size: cover;
+
+  background-image: url(../src/github_bp.png);
+}
+
+.content_div .pages .bg5:hover {
+  font-size: 450%;
+  font-weight: 900;
+  background-clip: content-box;
+  -webkit-background-clip: content-box;
+  color: white;
+  background-position: center;
+  background-size: cover;
+
+  background-image: url(../src/github_bp.png);
+}
+
+
 
 /* bottom */
 
