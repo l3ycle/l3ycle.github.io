@@ -1,0 +1,211 @@
+/* font */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+   font-family: "Montserrat";
+}
+
+
+/* head */
+
+.head_div p {
+  font-size: 300%;
+  margin: 48px;
+  font-weight: 500;
+}
+
+.head_div a {
+  color: black;
+  text-decoration: underline;
+  transition: color  .3s ease-in;
+}
+
+.head_div a:hover {
+  color: blue;
+  transition: color  .3s ease-out;
+}
+
+
+/* navbar */
+
+ ul {
+  z-index: +1;
+  margin-left: 48px;
+  margin-right: 48px;
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 48px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #666;
+}
+
+
+/* content */
+
+.content_div {
+  margin: 48px;
+}
+
+.content_div .title {
+  font-size: 250%;
+}
+
+.content_div .content {
+  font-size: 150%;
+}
+
+.content_div .pages .bg0 {
+  font-size: 450%;
+  font-weight: 900;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-position: center;
+  background-size: cover;
+
+  background-image: url(../src/gallery_bg.jpg);
+}
+
+.content_div .pages .bg0:hover {
+  font-size: 450%;
+  font-weight: 900;
+  background-clip: content-box;
+  -webkit-background-clip: content-box;
+  color: white;
+  background-position: center;
+  background-size: cover;
+
+  background-image: url(../src/gallery_bg.jpg);
+}
+
+.content_div .pages .bg1 {
+  font-size: 450%;
+  font-weight: 900;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-position: center;
+  background-size: cover;
+
+  background-image: url(../src/music_bg.jpg);
+}
+
+.content_div .pages .bg1:hover {
+  font-size: 450%;
+  font-weight: 900;
+  background-clip: content-box;
+  -webkit-background-clip: content-box;
+  color: white;
+  background-position: center;
+  background-size: cover;
+
+  background-image: url(../src/music_bg.jpg);
+}
+
+.content_div .pages .bg2 {
+  font-size: 450%;
+  font-weight: 900;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-position: center;
+  background-size: cover;
+
+  background-image: url(../src/school_bg.jpeg);
+  background-position: bottom;
+}
+
+.content_div .pages .bg2:hover {
+  font-size: 450%;
+  font-weight: 900;
+  background-clip: content-box;
+  -webkit-background-clip: content-box;
+  color: white;
+  background-position: center;
+  background-size: cover;
+
+  background-image: url(../src/school_bg.jpeg);
+}
+
+.content_div .pages .bg3 {
+  font-size: 450%;
+  font-weight: 900;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-position: center;
+  background-size: cover;
+
+  background-image: radial-gradient(circle, white, black);
+}
+
+.content_div .pages .bg3:hover {
+  font-size: 450%;
+  font-weight: 900;
+  background-clip: content-box;
+  -webkit-background-clip: content-box;
+  color: white;
+  background-position: center;
+  background-size: cover;
+
+  background-image: radial-gradient(circle, white, black);
+}
+
+.content_div .pages .bg4 {
+  font-size: 450%;
+  font-weight: 900;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-position: center;
+  background-size: cover;
+
+  background-image: url(../src/webprogrammierung_bp.png);
+}
+
+.content_div .pages .bg4:hover {
+  font-size: 450%;
+  font-weight: 900;
+  background-clip: content-box;
+  -webkit-background-clip: content-box;
+  color: white;
+  background-position: center;
+  background-size: cover;
+
+  background-image: url(../src/webprogrammierung_bp.png);
+}
+
+
+/* bottom */
+
+
+/* @media only screen and (max-width: 960px) {
+
+}
+
+@media only screen and (min-width: 960px) {
+
+} */
