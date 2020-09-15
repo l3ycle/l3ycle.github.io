@@ -77,7 +77,7 @@ li a:hover {
   font-size: 150%;
 }
 
-.content_div .pages .bg0 {
+.content_div .pages .gallery {
   font-size: 450%;
   font-weight: 900;
   background-clip: text;
@@ -89,7 +89,7 @@ li a:hover {
   background-image: url(../src/gallery_bg.jpg);
 }
 
-.content_div .pages .bg0:hover {
+.content_div .pages .gallery:hover {
   font-size: 450%;
   font-weight: 900;
   background-clip: content-box;
@@ -101,7 +101,7 @@ li a:hover {
   background-image: url(../src/gallery_bg.jpg);
 }
 
-.content_div .pages .bg1 {
+.content_div .pages .music {
   font-size: 450%;
   font-weight: 900;
   background-clip: text;
@@ -113,7 +113,7 @@ li a:hover {
   background-image: url(../src/music_bg.jpg);
 }
 
-.content_div .pages .bg1:hover {
+.content_div .pages .music:hover {
   font-size: 450%;
   font-weight: 900;
   background-clip: content-box;
@@ -125,7 +125,7 @@ li a:hover {
   background-image: url(../src/music_bg.jpg);
 }
 
-.content_div .pages .bg2 {
+.content_div .pages .school {
   font-size: 450%;
   font-weight: 900;
   background-clip: text;
@@ -138,7 +138,7 @@ li a:hover {
   background-position: bottom;
 }
 
-.content_div .pages .bg2:hover {
+.content_div .pages .school:hover {
   font-size: 450%;
   font-weight: 900;
   background-clip: content-box;
@@ -150,7 +150,7 @@ li a:hover {
   background-image: url(../src/school_bg.jpeg);
 }
 
-.content_div .pages .bg3 {
+.content_div .pages .wollofton {
   font-size: 450%;
   font-weight: 900;
   background-clip: text;
@@ -162,7 +162,7 @@ li a:hover {
   background-image: radial-gradient(circle, white, black);
 }
 
-.content_div .pages .bg3:hover {
+.content_div .pages .wollofton:hover {
   font-size: 450%;
   font-weight: 900;
   background-clip: content-box;
@@ -174,7 +174,7 @@ li a:hover {
   background-image: radial-gradient(circle, white, black);
 }
 
-.content_div .pages .bg4 {
+.content_div .pages .webprogrammierung {
   font-size: 450%;
   font-weight: 900;
   background-clip: text;
@@ -186,7 +186,7 @@ li a:hover {
   background-image: url(../src/webprogrammierung_bp.png);
 }
 
-.content_div .pages .bg4:hover {
+.content_div .pages .webprogrammierung:hover {
   font-size: 450%;
   font-weight: 900;
   background-clip: content-box;
@@ -198,7 +198,7 @@ li a:hover {
   background-image: url(../src/webprogrammierung_bp.png);
 }
 
-.content_div .pages .bg5 {
+.content_div .pages .github {
   font-size: 450%;
   font-weight: 900;
   background-clip: text;
@@ -210,7 +210,7 @@ li a:hover {
   background-image: url(../src/github_bp.png);
 }
 
-.content_div .pages .bg5:hover {
+.content_div .pages .github:hover {
   font-size: 450%;
   font-weight: 900;
   background-clip: content-box;
@@ -220,6 +220,31 @@ li a:hover {
   background-size: cover;
 
   background-image: url(../src/github_bp.png);
+}
+
+.content_div .pages .home {
+  font-size: 450%;
+  font-weight: 900;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-position: center;
+  background-size: cover;
+
+  background-image: url(../src/home_bg.JPG);
+  background-position: bottom;
+}
+
+.content_div .pages .home:hover {
+  font-size: 450%;
+  font-weight: 900;
+  background-clip: content-box;
+  -webkit-background-clip: content-box;
+  color: white;
+  background-position: bottom;
+  background-size: cover;
+
+  background-image: url(../src/home_bg.JPG);
 }
 
 
